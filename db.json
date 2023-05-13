@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$UIweiOYMCNvjoSnv6Ndn2uaMfICGvpZG3vceocdUf7V2ABAhx.yJK",
+      "name": "test",
+      "id": 2
+    },
+    {
+      "email": "husam@husam.com",
+      "password": "$2a$10$DYflnJnsToD1PKJWHIIIg.QZqE/h4YjlMWyncpd9kYeFcCbisS4Gy",
+      "name": "fxgdfg",
+      "id": 3
+    },
+    {
+      "email": "hussam@example.com",
+      "password": "$2a$10$kgECNCKykHw6x9xNuHPgJe2qqkY2PPb6MqQxihglrcXiA5y.zvENG",
+      "name": "hussam",
+      "id": 7
+    },
+    {
+      "email": "Ic@Ic.com",
+      "password": "$2a$10$bjkX1uZ7PlSTEEXB6vxBR.VWghibFCK9zvf/MpSiGxhPPY5iZImmO",
+      "name": "Ic",
+      "id": 8
+    }
+  ],
+  "products": {
+    "Lunch": [
+      {
+        "id": 1,
+        "title": "Chicken shawarma meal",
+        "price": 15,
+        "image": "/assets/lunch/Chicken-shawarma-meal.jpg"
+      },
+      {
+        "id": 2,
+        "title": " Burger meal",
+        "price": 50,
+        "image": "/assets/lunch/Burger-meal.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Chicken meal with rice",
+        "price": 25,
+        "image": "/assets/lunch/Chicken-meal-with-rice.jpg"
+      },
+      {
+        "id": 4,
+        "title": " Grill meal",
+        "price": 15,
+        "image": "/assets/lunch/Grill-meal.jpg"
+      },
+      {
+        "id": 5,
+        "title": " Grilled fish meal",
+        "price": 15,
+        "image": "/assets/lunch/Grilled-fish-meal.jpg"
+      },
+      {
+        "id": 6,
+        "title": " Pizza meal",
+        "price": 15,
+        "image": "/assets/lunch/Pizza-meal.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Best KFC fried chicken",
+        "price": 35,
+        "image": "/assets/lunch/Best-KFC-fried-chicken.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Shawarma with cheese",
+        "price": 40,
+        "image": "/assets/lunch/Shawarma-with-cheese.jpg"
+      }
+    ],
+    "Beverages": [
+      {
+        "id": 1,
+        "title": "Coca Cola with sugar",
+        "price": 4,
+        "image": "/assets/beverages/CocaCola.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Lemon with mint Juice",
+        "price": 5,
+        "image": "/assets/beverages/Lemon-mint-juice.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Light sugar Mango Juice",
+        "price": 5,
+        "image": "/assets/beverages/Mango-Juice.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Strawberry juice with sugar",
+        "price": 5,
+        "image": "/assets/beverages/Strawberry-Juice.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Guava juice with sugar",
+        "price": 6,
+        "image": "/assets/beverages/Guava-Juice.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Orange juice with sugar",
+        "price": 3,
+        "image": "/assets/beverages/Orange-juice.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Peach Strawberry Lemonade",
+        "price": 15,
+        "image": "/assets/beverages/Peach-Strawberry-Lemonade.jpg"
+      },
+      {
+        "id": 8,
+        "title": "lemon with Soda",
+        "price": 5,
+        "image": "/assets/beverages/Lemon-with-Soda.jpg"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "orderItems": [
+        {
+          "id": 4,
+          "title": "Strawberry juice with sugar",
+          "price": 5,
+          "image": "/assets/beverages/Strawberry-Juice.jpg",
+          "quantity": 1,
+          "products": 4
+        }
+      ],
+      "shippingAddress": {
+        "country": "usa",
+        "city": "gaza",
+        "address": "gdsg",
+        "postalCode": "21212"
+      },
+      "totalPrice": "5.00",
+      "createdAt": "5/13/2023",
+      "id": 1
+    },
+    {
+      "orderItems": "orderItems",
+      "id": 2
+    },
+    {
+      "orderItems": "orderItems",
+      "id": 3
+    },
+    {
+      "orderItems": "orderItems",
+      "id": 4
+    }
+  ]
+}
